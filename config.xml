@@ -110,7 +110,7 @@
         Otherwise, you can specify specific domains:
     -->
 
-    <access origin="*"/>
+    <access origin="https://academy.londonreal.tv"/>
 
 
         <access origin="https://academy.londonreal.tv" />                    - allow any secure requests to http://phonegap.com/
