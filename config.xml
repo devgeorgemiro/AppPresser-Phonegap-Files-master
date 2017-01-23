@@ -26,23 +26,24 @@
     <gap:platform name="android" />
     
     <!-- You can comment out features you aren't using -->
-   <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-
-    <gap:plugin name="com.phonegap.plugin.statusbar" source="npm" />
-    <gap:plugin name="com.phonegap.plugins.pushplugin" source="npm" />
-    <gap:plugin name="nl.x-services.plugins.socialsharing" source="npm" />
-    <gap:plugin name="org.apache.cordova.camera" source="npm" />
-    <gap:plugin name="org.apache.cordova.contacts" source="npm" />
-    <gap:plugin name="org.apache.cordova.device" source="npm" />
-    <gap:plugin name="org.apache.cordova.dialogs" source="npm" />
-    <gap:plugin name="org.apache.cordova.file" source="npm" />
-    <gap:plugin name="org.apache.cordova.file-transfer" source="npm" />
-    <gap:plugin name="org.apache.cordova.geolocation" source="npm" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
-    <gap:plugin name="org.apache.cordova.media-capture" source="npm" />
-    <gap:plugin name="org.apache.cordova.network-information" source="npm" />
-    <gap:plugin name="org.apache.cordova.splashscreen" source="npm" />
-    <gap:plugin name="org.apache.cordova.vibration" source="npm" />
+    <plugin name="cordova-plugin-battery-status" />
+    <plugin name="cordova-plugin-camera" />
+    <plugin name="cordova-plugin-media-capture" />
+    <plugin name="cordova-plugin-console" />
+    <plugin name="cordova-plugin-contacts" />
+    <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-device-motion" />
+    <plugin name="cordova-plugin-device-orientation" />
+    <plugin name="cordova-plugin-dialogs" />
+    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-file-transfer" />
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-globalization" />
+    <plugin name="cordova-plugin-inappbrowser" />
+    <plugin name="cordova-plugin-media" />
+    <plugin name="cordova-plugin-network-information" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-vibration" />
 
     <!-- to show app faster, set autohide to true. iOS only -->
     <preference name="AutoHideSplashScreen" value="false" />
